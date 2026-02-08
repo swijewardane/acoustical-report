@@ -39,6 +39,14 @@ acoustical-report/
 - **First reflection analysis**: Modeled comb filtering from ceiling, floor, and rear wall reflections
 - **Modal density**: Evaluated convergence to Bonnello criterion
 
+<p align= 'center'>
+  <img src="report_figures/axial_room_modes.png">
+  <img src="report_figures/modeled_rt60_times.png">
+  <img src="report_figures/modal_density_plot.png">
+  <em> Modeled axial modes below Schroeder frequency (top), RT 60 times (middle), and modal density plot (below)</em>
+</p>
+
+
 ### 2. Empirical Measurements (REW)
 - **Equipment**: 
   - Source: ADAM Audio T7V studio monitor
@@ -53,6 +61,11 @@ acoustical-report/
 ### 3. Data Processing (Python)
 - Automated averaging of RT60 measurements across multiple positions
 - Export to CSV for further analysis and visualization
+
+<p align = 'center'>
+  <img src="report_figures/Averaged_RT60 times.png">
+  <em> Averaged RT 60 measurements</em>
+</p>
 
 ## Usage
 
